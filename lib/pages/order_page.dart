@@ -17,13 +17,15 @@ class _OrderPageState extends State<OrderPage> {
         title: Align(
             alignment: Alignment.center,
           child: Text("Yemek Uygulaması", style: TextStyle(color: Colors.black), )),
-      backgroundColor: Colors.orange,
+      backgroundColor: Colors.blue,
       ) ,
       body: Center(
     child: Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        Text("Siparişiniz Alınmıştır", style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),),
+        Align(
+          alignment: Alignment.center,
+            child: Text("Siparişiniz Alınmıştır", style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),)),
     ],
       ),
     ) ,

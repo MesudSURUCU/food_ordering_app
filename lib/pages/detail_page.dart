@@ -17,7 +17,7 @@ class _DetailPageState extends State<DetailPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.orange,
+        backgroundColor: Colors.blue,
         title: Align(
             alignment: Alignment.center,
             child: Text(widget.food.food_name)),
@@ -31,7 +31,7 @@ class _DetailPageState extends State<DetailPage> {
           SizedBox(
             width: 200, height: 50,
             child: ElevatedButton(
-                style: ElevatedButton.styleFrom(backgroundColor: Colors.orange),
+                style: ElevatedButton.styleFrom(backgroundColor: Colors.blue),
                 child: Text('SİPARİŞ VER', style: TextStyle(color: Colors.white),),
                 onPressed: (){
              print('${widget.food.food_name} sipariş verildi');
